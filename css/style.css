@@ -1,5 +1,6 @@
 .slid-fit {
     filter: brightness(50%);
+
 }
 
 .ex-bg-info {
@@ -7,23 +8,16 @@
 }
 
 @media screen and (max-width: 576px) {
-    .kors {
-        display: none;
-
+    .carcap {
+        margin-top: 0%;
+        margin-bottom: 0%;
     }
 
-    .com-add {
-        display: none;
-    }
-}
-
-@media only screen and (max-width: 992px) and (min-width: 576px) {
-    .com-add {
-        display: none;
+    .carcap h1 {
+        font-size: small;
     }
 
-    .kors {
-        display: none;
-
+    .carcap p {
+        font-size: x-small;
     }
 }
