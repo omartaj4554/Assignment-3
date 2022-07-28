@@ -6,8 +6,24 @@
     background-color: #F4FAFD;
 }
 
-@media only screen and(max-width:576px) {
+@media screen and (max-width: 576px) {
     .kors {
-        flex-direction: column;
+        display: none;
+
+    }
+
+    .com-add {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 576px) {
+    .com-add {
+        display: none;
+    }
+
+    .kors {
+        display: none;
+
     }
 }
